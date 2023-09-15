@@ -1,15 +1,17 @@
 import Link from 'next/link';
 import Logo from './logo';
 
+import classes from './main-navigation.module.css';
+
 function MainNavigation() {
 	return (
-		<header>
+		<header className={classes.header}>
 			<Link href='/'>
 				<Logo />
 			</Link>
 			<nav>
-				<ul>
-					<li>
+				<ul className={classes.ul}>
+					<li className={classes.li}>
 						<Link href='/posts'>Posts</Link>
 					</li>
 					<li>
