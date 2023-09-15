@@ -14,7 +14,7 @@ function Hero() {
 				/>
 			</div>
 			<h1>Hi, I'm RottenApple</h1>
-			<p>
+			<p style={{ fontStyle: 'italic', fontFamily: 'cursive' }}>
 				I'm interested in the tech industry, and I talk about various tools and
 				technologies such as React and Angular.
 			</p>

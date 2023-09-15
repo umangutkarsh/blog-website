@@ -27,7 +27,9 @@ function PostItem({ post: { title, image, excerpt, date, slug } }) {
 				<div className={classes.content}>
 					<h3>{title}</h3>
 					<time>{formattedDate}</time>
-					<p>{excerpt}</p>
+					<p style={{ fontStyle: 'italic', fontFamily: 'cursive' }}>
+						{excerpt}
+					</p>
 				</div>
 			</Link>
 		</li>
