@@ -14,6 +14,8 @@ This is a blog website built using the MERN (MongoDB, Express, React, Node) stac
 
 
 ![5](https://github.com/umangutkarsh/blog-website/assets/95426993/2ea84ff6-1902-4a4f-a2b8-6e61aff471ab)
+<br/>
+
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -26,8 +28,9 @@ This is a blog website built using the MERN (MongoDB, Express, React, Node) stac
 1. [Features](https://github.com/umangutkarsh/blog-website/tree/main#features)
 2. [Advantages of Using Next.js](https://github.com/umangutkarsh/blog-website/tree/main#advantages-of-using-nextjs)
 3. [Getting Started](https://github.com/umangutkarsh/blog-website/tree/main#getting-started)
-4. [API Endpoints](https://github.com/umangutkarsh/blog-website/tree/main#getting-started)
-5. [Testing with Postman](https://github.com/umangutkarsh/blog-website/tree/main#testing-with-postman)
+4. [Create next.config.js file](https://github.com/umangutkarsh/blog-website/tree/main#create-nextconfigjs-file)
+5. [API Endpoints](https://github.com/umangutkarsh/blog-website/tree/main#getting-started)
+6. [Testing with Postman](https://github.com/umangutkarsh/blog-website/tree/main#testing-with-postman)
 
 <br />
 
