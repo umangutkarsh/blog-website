@@ -1,6 +1,6 @@
 # Blog-Website
 
-# Blog Website using MERN Stack with Next.js
+## Blog Website using MERN Stack with Next.js
 This is a blog website built using the MERN (MongoDB, Express, React, Node) stack, with Next.js as the framework for the React client. The project also utilizes React DOM and various external packages to enhance functionality. Nodemon is used for server development, and Postman is employed for testing API endpoints.
 
 [![Mongo Badge](http://img.shields.io/badge/Database%20-MongoDB-darkgreen?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
