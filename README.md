@@ -109,8 +109,8 @@ module.exports = phase => {
 
 
 ## API Endpoints
-* GET `/api/blogs`: Fetch all blog posts.
-* GET `/api/blogs/:id`: Fetch a single blog post by ID.
+* GET `/api/posts`: Fetch all blog posts.
+* GET `/api/posts/:id`: Fetch a single blog post by ID.
 * POST `/api/contact`: Submit a contact form.
 
 <br />
