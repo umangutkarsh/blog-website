@@ -3,18 +3,31 @@
 # Blog Website using MERN Stack with Next.js
 This is a blog website built using the MERN (MongoDB, Express, React, Node) stack, with Next.js as the framework for the React client. The project also utilizes React DOM and various external packages to enhance functionality. Nodemon is used for server development, and Postman is employed for testing API endpoints.
 
+[![Mongo Badge](http://img.shields.io/badge/Database%20-MongoDB-darkgreen?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+&emsp;
+[![Express Badge](http://img.shields.io/badge/Server%20-Express-black?style=for-the-badge&logo=express)](https://expressjs.com/)
+&emsp;
+[![Reactjs Badge](http://img.shields.io/badge/Client%20-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+&emsp;
+[![Node Badge](http://img.shields.io/badge/Backend%20-Node-green?style=for-the-badge&logo=node.js)](https://nodejs.org/en/)
+&emsp;
+
 
 ![5](https://github.com/umangutkarsh/blog-website/assets/95426993/2ea84ff6-1902-4a4f-a2b8-6e61aff471ab)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
 
 
 <br />
 
 ## Contents
-1. [Features]
-2. [Advantages of Using Next.js]
-3. [Getting Started]
-4. [API Endpoints]
-5. [Testing with Postman]
+1. [Features](https://github.com/umangutkarsh/blog-website/tree/main#features)
+2. [Advantages of Using Next.js](https://github.com/umangutkarsh/blog-website/tree/main#advantages-of-using-nextjs)
+3. [Getting Started](https://github.com/umangutkarsh/blog-website/tree/main#getting-started)
+4. [API Endpoints](https://github.com/umangutkarsh/blog-website/tree/main#getting-started)
+5. [Testing with Postman](https://github.com/umangutkarsh/blog-website/tree/main#testing-with-postman)
 
 <br />
 
@@ -60,10 +73,42 @@ Open your web browser and access the website at http://localhost:3000.
 
 <br />
 
+## Create next.config.js file
+```
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
+
+module.exports = phase => {
+	if (phase === PHASE_DEVELOPMENT_SERVER) {
+		return {
+			env: {
+				mongodb_username: your_username,
+				mongodb_password: your_password,
+				mongodb_clustername: your_clustername,
+				mongodb_database: your_dbName,
+			},
+		};
+	}
+
+	return {
+		env: {
+			mongodb_username: your_username-prod,
+			mongodb_password: your_password-prod,
+			mongodb_clustername: your_clustername-prod,
+			mongodb_database:  your_dbName-prod,
+		},
+	};
+};
+
+```
+
+
+<br />
+
+
 ## API Endpoints
-GET /api/blogs: Fetch all blog posts.
-GET /api/blogs/:id: Fetch a single blog post by ID.
-POST /api/contact: Submit a contact form.
+* GET `/api/blogs`: Fetch all blog posts.
+* GET `/api/blogs/:id`: Fetch a single blog post by ID.
+* POST `/api/contact`: Submit a contact form.
 
 <br />
 
